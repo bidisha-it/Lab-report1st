@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+   background-color: aqua;
+    width: 100;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+ background-color: #a98;
+    width: 100;
+    padding: 10px;
+    text-align: left;
+}
+
+div#left{
+    background-color: rgb(60, 230, 96);
+    height: 600px;
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+div#content{
+    float: left;
+    background-color: #a39;
+    height: 600px;
+    width: 60%;
+    text-align: left;
+}
+div#right{
+    float: left;
+    background-color: rgb(29, 8, 225);
+    height: 600px;
+    width: 20%;
+    text-align: left;
+}
+footer{
+    clear: both;
+    background-color: rgb(140, 129, 173);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}

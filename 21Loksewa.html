@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lok Sewa Aayog Registration</title>
+  <link rel="stylesheet" href="Css/21Loksewa.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="card">
+         <div class="header">
+            <img src="Image/logo.jpeg" alt="Logo" class="logo" />
+            <h2>Public Service Commission</h2>
+         </div>
+         <h3>Register</h3>
+         <form>
+            <div class="row">
+               <div class="form-group">
+                  <label for="first-name">First Name <span class="required">*</span></label>
+                  <input type="text" id="first-name" required />
+               </div>
+               <div class="form-group">
+                  <label for="middle-name">Middle Name</label>
+                  <input type="text" id="middle-name" />
+               </div>
+               <div class="form-group">
+                  <label for="last-name">Last Name <span class="required">*</span></label>
+                  <input type="text" id="last-name" required />
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form-group">
+                  <label for="username">Username <span class="required">*</span></label>
+                  <input type="text" id="username" required />
+               </div>
+               <div class="form-group">
+                  <label for="dob-bs">Date of Birth (B.S.) <span class="required">*</span></label>
+                  <input type="date" id="dob-bs" required />
+               </div>
+               <div class="form-group">
+                  <label for="dob-ad">Date of Birth (A.D.) <span class="required">*</span></label>
+                  <input type="date" id="dob-ad" required />
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form-group gender-group">
+                  <label>Gender <span class="required">*</span></label>
+                  <div class="gender-options">
+                     <label><input type="radio" name="gender" value="male" required /> Male</label>
+                     <label><input type="radio" name="gender" value="female" /> Female</label>
+                     <label><input type="radio" name="gender" value="other" /> Other</label>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email <span class="required">*</span></label>
+                  <input type="email" id="email" required />
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form-group">
+                  <label for="mobile">Mobile Number <span class="required">*</span></label>
+                  <input type="tel" id="mobile" required />
+               </div>
+               <div class="form-group">
+                  <label for="national-id">National ID</label>
+                  <input type="text" id="national-id" />
+               </div>
+               <div class="form-group">
+                  <label for="citizenship-number">Citizenship Number <span class="required">*</span></label>
+                  <input type="text" id="citizenship-number" required />
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form-group">
+                  <label for="district">Citizenship Issue District <span class="required">*</span></label>
+                  <select id="district" required>
+                     <option value="">Choose Option...</option>
+                     <option value="ktm">Kathmandu</option>
+                     <option value="bkt">Bhaktapur</option>
+                     <option value="lal">Lalitpur</option>
+                  </select>
+               </div>
+               <div class="form-group">
+                  <label for="issue-bs">Citizenship Issue Date (B.S.)</label>
+                  <input type="date" id="issue-bs" />
+               </div>
+               <div class="form-group">
+                  <label for="issue-ad">Citizenship Issue Date (A.D.) <span class="required">*</span></label>
+                  <input type="date" id="issue-ad" required />
+               </div>
+            </div>
+
+            <div class="footer">
+               <button type="button" class="back">Back to Login</button>
+               <button type="submit" class="submit">Submit</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</body>
+</html>

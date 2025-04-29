@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sens-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+         nav {
+            background: #444;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+        }
+         nav a {
+            color: rgb(244, 241, 243);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+         }
+         .container {
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+            margin: auto;
+         }
+         .gallery img {
+            width: 100%;
+            max-width: 300px;
+    
+         }
+         form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+        button:hover{
+            background:green;
+         }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#Contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a company dedicated to providing top-notch services and products to our customers.</p>
+    </section>
+
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <p>We offer a variety of services including:
+        Website Design & Development
+        Graphic Design & Branding
+        Digital Marketing & SEO
+        Content Writing & Management</p>
+    </section>
+
+    <section id="gallery" class="container gallery">
+        <h2>Gallery</h2>
+        <img src="https://www.goodcore.co.uk/blog/coding-vs-programming/" alt="Sample Image">
+    </section>
+
+    <section id="Contact" class="container">
+        <h2>Contact Us</h2>
+        <from>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">send</button>
+        </from>
+    </section>
+    </div>
+</body>
+</html>

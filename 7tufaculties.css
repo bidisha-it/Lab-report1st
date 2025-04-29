@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    /padding: 0;/
+}
+div{
+    width: 75%;
+    margin: 0;
+  
+}
+body{
+    background-color: white;
+ 
+}
+h1{
+    text-align: center;
+}
+.container div{
+    text-align: center;
+    width: 75px;
+    margin: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #4e152a;
+    padding: 20px;
+    height: 75px;
+    background-color: bisque;
+
+}
+#hello{
+    float:left ;
+    width: 75%;
+    padding: 45px;
+    border: solid 2px rgb(238, 98, 98);
+    margin-left: 0;
+    margin-bottom: 0;
+    clear: left;
+    height:200px ;
+    color: white;
+    background-color: black;
+}

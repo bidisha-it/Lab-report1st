@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    margin: 0;
+  
+}
+body{
+    background-color: white;
+ 
+}
+.container div{
+    width: 100px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid coral;
+    padding: 20px;
+    height: 100px;
+    background-color: bisque;
+
+}
+#example{
+    float: left;
+    width: 40%;
+    padding: 45px;
+    border: solid 2px black;
+    margin-left: 0;
+    margin-bottom: 0;
+    clear: left;
+    height:600px ;
+}
+#example1{
+    width: 45%;
+    padding: 45px;
+    border: solid 2px black;
+    margin-left: 0;
+    margin-bottom: 0;
+    float:right;
+    height: 600px;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(194, 186, 192);
+}
+.container{
+    background-color:rgb(228, 234, 234) 
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Layout with Iframes</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .left {
+            width: 20%;
+            background-color: lightblue;
+        }
+        
+        .middle {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+        }
+        
+        .top, .bottom {
+            flex: 1;
+            background-color: lightgreen;
+        }
+        
+        .right {
+            width: 20%;
+            background-color: lightyellow;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="left">
+        <iframe src="frame1.html" name="left"></iframe>
+    </div>
+
+    <div class="middle">
+        <div class="top">
+            <iframe src="frame2.html" name="top"></iframe>
+        </div>
+        <div class="bottom">
+            <iframe src="frame3.html" name="bottom"></iframe>
+        </div>
+    </div>
+
+    <div class="right">
+        <iframe src="frame4.html" name="right"></iframe>
+    </div>
+
+</body>
+</html>
